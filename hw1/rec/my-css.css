@@ -130,3 +130,44 @@
     animation: mymove 5s infinite;
     
   }
+
+  .p-relative{
+    position:relative;
+    left:20px;
+    top:20px;
+    background-color: red;
+  }
+  .p-sticky{
+    position: sticky;
+    top:0px;
+
+  }
+
+  .p-fixed{
+    position: fixed;
+    top:0px;
+
+  }
+  .p-phone{
+    background-color: red;
+  }
+
+  .vvc{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .vvc p{
+    background-color: rebeccapurple;
+  }
+
+
+
+
+  @media(max-width:600px){
+    .p-phone{
+      background-color: blue;
+    }
+  }
