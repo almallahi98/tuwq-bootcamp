@@ -1,0 +1,17 @@
+.container-max{
+    padding: 0 0 0 0;
+    margin: 5px 30px 5px 30px;
+}
+
+.p-img{
+    max-height: 400px;
+    
+    
+}
+
+footer{
+    position: relative;
+    color: aliceblue;
+    min-height: 300px;
+    bottom: -100px;
+}
