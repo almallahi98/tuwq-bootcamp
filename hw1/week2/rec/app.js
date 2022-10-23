@@ -13,7 +13,7 @@ console.log(r);
 
 let h1=document.getElementById('h1');
 h1.innerText='ghhjkll';
-h1.innerHTML='<em>jjjjjjj</em>'
+h1.innerHTML='<em>jjjjjjj</em>';
 let x=h1.textContent;
 console.log("this is x: "+x);
 console.log(h1);
